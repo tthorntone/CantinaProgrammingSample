@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CantinaProgrammingSample.view
 {
-    interface IDisplayTools
+    interface IDisplayTools //our interface for the view. Not a lot, but a good start.
     {
         string GetSelector();
         void ShowResults(string result, int count);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CantinaProgrammingSample.model
 {
-    interface ISelectorModel
+    interface ISelectorModel //our model interface. Very important!
     {
         string[] ParseSelectors(string selector);
         JObject ParseJSONSource(string source);
